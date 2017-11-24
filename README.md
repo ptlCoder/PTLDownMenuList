@@ -1,6 +1,6 @@
 # PTLDownMenuList
-下拉列表
-###简单用发
+## 下拉列表
+### 简单用法
 ```
 PTLMenuButton *btn = [[PTLMenuButton alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 40) menuTitles:@[@"科室",@"排序"]];
     NSArray * listArr1 = @[@"全科",@"妇产科",@"儿科",@"内科",@"外科",@"中医科",@"口腔科",@"耳科",@"耳鼻喉科"];
@@ -18,8 +18,8 @@ PTLMenuButton *btn = [[PTLMenuButton alloc]initWithFrame:CGRectMake(0, 0, self.v
 
 -----------------------------------------------------------------------------------------
 # KMTagListView
-tag标签
-###简单用发
+## tag标签
+### 简单用法
 ```
 KMTagListView *tag = [[KMTagListView alloc]initWithFrame:CGRectMake(10, 100, self.view.frame.size.width, 0)];
     tag.delegate_ = self;
